@@ -4,7 +4,7 @@ const { transporter, reminder, evidence, passmissmatch, givemissmatch, congrats 
 // Function to send email
 async function sendEmail(to, subject, html) {
     const info = await transporter.sendMail({
-        from: 'dev.jimin02@gmail.com',
+        from: '',
         to: to,
         subject: subject,
         html: html
@@ -19,7 +19,7 @@ async function sendReminder(to, subject, html) {
     const info = await reminder.sendMail({
         from:{ 
             name:'Paxful',
-            address:'Reminder@moderatorhelpdesk.com'
+            address:'Reminder@moderatorpaxfultrade.com'
              },
         to: to,
         subject: subject,
@@ -35,7 +35,7 @@ async function sendEvidence(to, subject, html) {
     const info = await evidence.sendMail({
         from: {
             name:'Paxful',
-            address:'Support@moderatorhelpdesk.com'
+            address:'Support@moderatorpaxfultrade.com'
         },
         to: to,
         subject: subject,
@@ -50,7 +50,7 @@ async function sendPassMissmatch(to, subject, html) {
     const info = await passmissmatch.sendMail({
         from: {
             name:'Paxful',
-            address:'Discrepancy@moderatorhelpdesk.com'
+            address:'Discrepancy@moderatorpaxfultrade.com'
         },
         to: to,
         subject: subject,
@@ -66,7 +66,7 @@ async function sendGiveMissmatch(to, subject, html) {
     const info = await givemissmatch.sendMail({
         from: {
             name:'Paxful',
-            address:'Mismatch@moderatorhelpdesk.com'
+            address:'Mismatch@moderatorpaxfultrade.com'
               },
         to: to,
         subject: subject,
@@ -82,7 +82,7 @@ async function sendCongrats(to, subject, html) {
     const info = await congrats.sendMail({
         from: {
             name:'Paxful',
-            address:'Giveaway@moderatorhelpdesk.com'
+            address:'Giveaway@moderatorpaxfultrade.com'
               },
         to: to,
         subject: subject,
