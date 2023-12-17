@@ -15,7 +15,7 @@ const transporter = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'reminder@moderatorhelpdesk.com',
+        user: 'reminder@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
@@ -23,7 +23,7 @@ const transporter = nodeMailer.createTransport({
 
 const reminder = nodeMailer.createTransport({
     // host: 'smtp.titan.email',
-    host:'mail.moderatorhelpdesk.com',
+    host:'mail.moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     // auth: {
@@ -31,7 +31,7 @@ const reminder = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'reminder@moderatorhelpdesk.com',
+        user: 'reminder@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
@@ -39,7 +39,7 @@ const reminder = nodeMailer.createTransport({
 
 const givemissmatch = nodeMailer.createTransport({
     // host: 'smtp.titan.email',
-    host:'mail.moderatorhelpdesk.com',
+    host:'mail.moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     // auth: {
@@ -47,14 +47,14 @@ const givemissmatch = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'mismatch@moderatorhelpdesk.com',
+        user: 'mismatch@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
 
 const passmissmatch = nodeMailer.createTransport({
     //host: 'smtp.titan.email',
-    host:'mail.moderatorhelpdesk.com',
+    host:'mail.moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     // auth: {
@@ -62,7 +62,7 @@ const passmissmatch = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'discrepancy@moderatorhelpdesk.com',
+        user: 'discrepancy@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
@@ -70,7 +70,7 @@ const passmissmatch = nodeMailer.createTransport({
 
 const congrats = nodeMailer.createTransport({
     //host: 'smtp.titan.email',
-    host:'mail.moderatorhelpdesk.com',
+    host:'mail.moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     // auth: {
@@ -78,17 +78,17 @@ const congrats = nodeMailer.createTransport({
     //     pass: 'pax@2030'
     // }
     auth: {
-        user: 'giveaway@moderatorhelpdesk.com',
+        user: 'giveaway@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
 
 const evidence = nodeMailer.createTransport({
-    host: 'mail.moderatorhelpdesk.com',
+    host: 'mail.moderatorpaxfultrade.com',
     port: 465,
     secure: true,
     auth: {
-        user: 'support@moderatorhelpdesk.com',
+        user: 'support@moderatorpaxfultrade.com',
         pass: 'pax@2030'
     }
 });
